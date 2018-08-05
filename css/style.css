@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 30px;
   }
 }
 
@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
+  font-size:24px;
 }
 
 #header #logo img {
@@ -741,19 +742,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+
+
+     background-image: linear-gradient( 135deg, rgb(201, 197, 197) 0%, rgba(165, 165, 165, 0.87) 100%);
   background-size: cover;
-  padding: 60px 0;
+  background-color: black ;
+  padding: 90px 0;
 }
 
 #call-to-action h3 {
-  color: #fff;
+  color: #111;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action p {
-  color: #fff;
+  color: #111;
 }
 
 #call-to-action .cta-btn {
@@ -767,13 +771,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #111;
+  color: #111;
 }
 
 #call-to-action .cta-btn:hover {
   background: #18d26e;
   border: 2px solid #18d26e;
+  color: #fff;
 }
 
 /* Call To Action Section
@@ -1306,7 +1311,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #111;
+  background-image: url(http://interior-design.cmsmasters.net/wp-content/uploads/2015/04/map-2.jpg);
   padding: 60px 0 30px 0;
 }
 
@@ -1315,7 +1320,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 34px;
+  font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
@@ -1454,4 +1459,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+
+
+#logo {
+    position: relative;
+    bottom: 92px;
 }
